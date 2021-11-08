@@ -12,12 +12,14 @@
   --primary-text-color: #757575;
   --accent-pick-color: #2196f3;
   --primary-wight-color: #ffffff;
+  --background-grey-color: #2f303a;
 
   /* footer color */
   --fttitle-text-color: #212121;
   --ftprimary-text-color: #757575;
   --ftaccent-pick-color: #2196f3;
   --ftprimary-wight-color: #f5f4fa;
+  --ftbackground-grey-color: #2f303a;
 }
 
 /* Body */
@@ -152,7 +154,7 @@ body {
 .ftr {
   display: blo;
   width: 100%;
-  background-color: #2f303a;
+  background-color: var(--ftbackground-grey-color);
   padding-top: 60px;
   padding-bottom: 60px;
 }

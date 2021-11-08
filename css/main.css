@@ -1,21 +1,15 @@
 /* Hero */
 
 .hero.section {
-  background: no-repeat;
+  display: block;
   text-align: center;
   padding: 200px 452px;
   min-width: 1600px;
   min-height: 600px;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: var(--primary-text-color);
+  background-color: var(--background-grey-color);
   background-image: url(../images/hero.jpg);
-}
-
-.hero {
-  display: block;
-  align-items: center;
-  background: no-repeat;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .hero-title {
