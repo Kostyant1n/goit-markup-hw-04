@@ -1,11 +1,21 @@
 /* Hero */
 
 .hero.section {
+  background: no-repeat;
   text-align: center;
   padding: 200px 452px;
   min-width: 1600px;
   min-height: 600px;
-  background-image: url(https://github.com/Kostyant1n/goit-markup-hw-03/blob/main/images/hero.jpg?raw=true);
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--primary-text-color);
+  background-image: url(../images/hero.jpg);
+}
+
+.hero {
+  display: block;
+  align-items: center;
+  background: no-repeat;
 }
 
 .hero-title {
