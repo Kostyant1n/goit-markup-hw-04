@@ -79,18 +79,9 @@
 }
 
 .gallery .caption {
-  /* border-top: none;
-  border: 1px solid #eeeeee; */
-  /* Установит стили верхней рамки */
   border-top: none;
-
-  /* Установит стили правой рамки */
   border-right: 1px solid #eeeeee;
-
-  /* Установит стили нинжней рамки */
   border-bottom: 1px solid #eeeeee;
-
-  /* Установит стили левой рамки */
   border-left: 1px solid #eeeeee;
 }
 
