@@ -16,8 +16,12 @@
   --btn-wight-color: #ffffff;
   --background-grey-color: #2f303a;
   --bg-cl-icon: #f5f4fa;
+
+  /* social icon */
   --icon-cl: #afb1b8;
   --icon-pick-cl: #ffffff;
+  --bgicon-cl: #ffffff;
+  --bgicon-pick-cl: #2196f3;
 
   /* footer color */
   --fttitle-text-color: #212121;
@@ -142,19 +146,20 @@ body {
 }
 
 .contacts-header .contact {
-  display: block;
+  display: flex;
   align-items: center;
-  align-items: center;
+  text-align: center;
   padding-top: 32px;
   padding-bottom: 32px;
+  color: var(--hdprimary-text-color);
+}
+
+.contacts-header .svg-icon {
+  margin-right: 10px;
 }
 
 .contacts-header .item:not(:last-child) {
   margin-right: 50px;
-}
-
-.contacts-header .contact {
-  color: var(--hdprimary-text-color);
 }
 
 .contacts-header .contact:hover,
