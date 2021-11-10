@@ -209,10 +209,3 @@ address {
 .contacts-footer .contact:focus {
   color: var(--hdaccent-pick-color);
 }
-
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-  margin-bottom: 0px;
-  margin-top: 0px;
-}
