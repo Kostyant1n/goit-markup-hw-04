@@ -236,7 +236,7 @@
 }
 
 .link-social:hover,
-:focus {
+.link-social:focus {
   color: var(--icon-pick-cl);
   background-color: var(--bgicon-pick-cl);
 }
