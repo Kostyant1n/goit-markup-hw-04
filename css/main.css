@@ -3,13 +3,19 @@
 .hero.section {
   display: block;
   text-align: center;
-  padding: 200px 452px;
-  min-width: 1600px;
-  min-height: 600px;
+  padding: 200px 0;
+  max-width: 1600px;
+  height: 600px;
   background-color: var(--background-grey-color);
-  background-image: url(../images/hero.jpg);
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/hero/hero.jpg);
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
+  margin: 0 auto;
 }
 
 .hero-title {
@@ -21,13 +27,16 @@
   text-transform: uppercase;
   margin-top: 0px;
   margin-bottom: 30px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Button */
 
 .button.hero {
   display: inline-block;
-  color: var(--primary-wight-color);
+  color: var(--btn-wight-color);
   background-color: var(--accent-pick-color);
   text-decoration: none;
   min-width: 200px;
@@ -61,6 +70,39 @@
   padding-bottom: 0px;
   margin-bottom: 0px;
   margin-top: 0px;
+}
+
+.features .item::before {
+  display: block;
+  content: '';
+  height: 120px;
+  background-size: contain;
+  background: var(--bg-cl-icon);
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+
+.features .icon-antenna::before {
+  background-image: url(../images/advantages/antenna.svg);
+}
+
+.features .icon-clock::before {
+  background-image: url(../images/advantages/clock.svg);
+}
+
+.features .icon-diagram::before {
+  background-image: url(../images/advantages/diagram.svg);
+}
+
+.features .icon-astronaut::before {
+  background-image: url(../images/advantages/astronaut.svg);
+}
+
+.features .features .item {
+  width: calc((100% - 30px * 2) / 3);
+  margin-right: 30px;
 }
 
 /* Section */
@@ -129,11 +171,15 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
-  margin-top: 30px;
+  margin-top: 0px;
   margin-bottom: 0px;
   text-align: center;
   margin-right: 0px;
   margin-left: 0px;
+}
+
+.our-team .caption {
+  padding: 30px;
 }
 
 .our-team {
@@ -160,7 +206,7 @@
   line-height: 1.19;
   color: var(--primary-text-color);
   margin-top: 10px;
-  margin-bottom: 30px;
+  margin-bottom: 0px;
   text-align: center;
 }
 

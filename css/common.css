@@ -9,10 +9,13 @@
 
   /* main color */
   --title-text-color: #212121;
+  --h2-text-color: #212121;
   --primary-text-color: #757575;
   --accent-pick-color: #2196f3;
   --primary-wight-color: #ffffff;
+  --btn-wight-color: #ffffff;
   --background-grey-color: #2f303a;
+  --bg-cl-icon: #f5f4fa;
 
   /* footer color */
   --fttitle-text-color: #212121;
@@ -36,6 +39,15 @@ body {
   list-style: none;
   padding: 0px;
   margin: 0px;
+}
+
+/* Section */
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  margin-bottom: 0px;
+  margin-top: 0px;
 }
 
 /* Container */
@@ -90,7 +102,7 @@ body {
   text-decoration: none;
 }
 
-/* Main-nav */
+/* Nav */
 
 .main-nav {
   display: flex;
@@ -108,14 +120,13 @@ body {
 
 .site-nav .link {
   display: block;
-
   color: var(--hdtitle-text-color);
   padding-top: 32px;
   padding-bottom: 32px;
 }
 
 .site-nav .link:hover,
-.site-nav :focus {
+.site-nav .link:focus {
   color: var(--hdaccent-pick-color);
 }
 
@@ -188,6 +199,9 @@ address {
   font-size: 14px;
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
+}
+
+.contacts-footer .item {
   margin-top: 9px;
 }
 
