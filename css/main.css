@@ -54,6 +54,17 @@
 
 /* Advantages */
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+
 .title {
   font-weight: 700;
   font-size: 14px;
@@ -67,9 +78,9 @@
 }
 
 .benefits {
-  padding-top: 47px;
+  padding-top: 94px;
   padding-bottom: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 47px;
   margin-top: 0px;
 }
 
@@ -227,6 +238,8 @@
 
 .link-social {
   display: block;
+  justify-content: center;
+  align-items: center;
   width: 44px;
   height: 44px;
   color: var(--icon-cl);
@@ -241,7 +254,7 @@
   background-color: var(--bgicon-pick-cl);
 }
 
-.svg-icon {
+.link-social .svg-icon {
   width: 20px;
   height: 20px;
   fill: currentColor;
@@ -249,4 +262,49 @@
 
 .item-social:not(:last-child) {
   margin-right: 10px;
+}
+
+/* Clients */
+
+.regular-clients {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  margin-bottom: 0px;
+}
+
+.item-client {
+  width: calc((100% - 30px * 5) / 6);
+  margin-top: 0px;
+  margin-bottom: 30px;
+  margin-right: 30px;
+  box-sizing: border-box;
+}
+
+.link-client {
+  display: block;
+  align-items: center;
+  width: 170px;
+  height: 92px;
+  color: var(--icon-cl);
+  padding: 16px 32px;
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.item-client:nth-child(6) {
+  margin-right: 0;
+}
+
+.link-client:hover,
+.link-client:focus {
+  color: var(--bgicon-pick-cl);
+  border: 1px solid var(--bgicon-pick-cl);
+}
+
+.link-client .svg-icon {
+  width: 106px;
+  height: 60px;
+  fill: currentColor;
 }

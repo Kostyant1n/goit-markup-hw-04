@@ -41,17 +41,6 @@ body {
 
 /* Утилиты */
 
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  padding: 0;
-  overflow: hidden;
-  border: 0;
-  clip: rect(0 0 0 0);
-}
-
 .list {
   list-style: none;
   padding: 0px;
@@ -156,17 +145,23 @@ body {
   margin-left: auto;
 }
 
+.contacts-header .svg-envelope {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+}
+
+.contacts-header .svg-smartphone {
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+}
 .contacts-header .contact {
   display: flex;
   align-items: center;
-  text-align: center;
   padding-top: 32px;
   padding-bottom: 32px;
   color: var(--hdprimary-text-color);
-}
-
-.contacts-header .svg-icon {
-  margin-right: 10px;
 }
 
 .contacts-header .item:not(:last-child) {
