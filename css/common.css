@@ -22,6 +22,7 @@
   --icon-pick-cl: #ffffff;
   --bgicon-cl: #ffffff;
   --bgicon-pick-cl: #2196f3;
+  --bg-icon-cl: rgba(255, 255, 255, 0.1);
 
   /* footer color */
   --fttitle-text-color: #212121;
@@ -145,17 +146,27 @@ body {
   margin-left: auto;
 }
 
-.contacts-header .svg-envelope {
+.svg-envelope {
   width: 16px;
   height: 12px;
   margin-right: 10px;
+  fill: var(--hdprimary-text-color);
 }
 
-.contacts-header .svg-smartphone {
+.svg-smartphone {
   width: 10px;
   height: 16px;
   margin-right: 10px;
+  fill: var(--hdprimary-text-color);
 }
+
+.contacts-header .svg-envelope:hover,
+.contacts-header .svg-envelope:focus,
+.contacts-header .svg-smartphone:hover,
+.contacts-header .svg-smartphone:focus {
+  fill: var(--hdaccent-pick-color);
+}
+
 .contacts-header .contact {
   display: flex;
   align-items: center;
@@ -171,6 +182,7 @@ body {
 .contacts-header .contact:hover,
 .contacts-header .contact:focus {
   color: var(--hdaccent-pick-color);
+  fill: var(--hdaccent-pick-color);
 }
 
 /* Fotter */
@@ -221,4 +233,34 @@ address {
 .contacts-footer .contact:hover,
 .contacts-footer .contact:focus {
   color: var(--hdaccent-pick-color);
+}
+
+.ftr .container {
+  display: flex;
+}
+
+.ftr .social-title {
+  margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--ftprimary-wight-color);
+}
+
+.ftsocial-link {
+  display: block;
+  align-self: center;
+  margin-left: 70px;
+}
+
+.ftsocial-link .link-social {
+  color: var(--bgicon-cl);
+  background-color: var(--bg-icon-cl);
+}
+
+.ftsocial-link .link-social:hover,
+.ftsocial-link .link-social:focus {
+  color: var(--icon-pick-cl);
+  background-color: var(--bgicon-pick-cl);
 }
