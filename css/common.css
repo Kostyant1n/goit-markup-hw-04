@@ -73,8 +73,6 @@ body {
 
 .page-header .container {
   display: flex;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .page-header {
@@ -146,14 +144,7 @@ body {
   margin-left: auto;
 }
 
-a.contact:hover .svg-envelope,
-a.contact:focus .svg-envelope,
-a.contact:hover .svg-smartphone,
-a.contact:focus .svg-smartphone {
-  fill: currentColor;
-}
-
-.svg-envelope {
+dct .svg-envelope {
   width: 16px;
   height: 12px;
   margin-right: 10px;
