@@ -146,6 +146,13 @@ body {
   margin-left: auto;
 }
 
+a.contact:hover .svg-envelope,
+a.contact:focus .svg-envelope,
+a.contact:hover .svg-smartphone,
+a.contact:focus .svg-smartphone {
+  fill: currentColor;
+}
+
 .svg-envelope {
   width: 16px;
   height: 12px;
