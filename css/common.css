@@ -167,12 +167,12 @@ a.contact:focus .svg-smartphone {
   fill: var(--hdprimary-text-color);
 }
 
-.contacts-header .svg-envelope:hover,
+/* .contacts-header .svg-envelope:hover,
 .contacts-header .svg-envelope:focus,
 .contacts-header .svg-smartphone:hover,
 .contacts-header .svg-smartphone:focus {
   fill: var(--hdaccent-pick-color);
-}
+} */
 
 .contacts-header .contact {
   display: flex;
