@@ -77,11 +77,22 @@
   text-transform: uppercase;
 }
 
+/* Benefits Features */
+
 .benefits {
   padding-top: 94px;
-  padding-bottom: 0px;
-  margin-bottom: 47px;
+  padding-bottom: 47px;
+  margin-bottom: 0px;
   margin-top: 0px;
+}
+
+.features .title {
+  color: var(--title-text-color);
+}
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .features .item::before {
@@ -94,6 +105,15 @@
   background-position: center;
   border-radius: 4px;
   margin-bottom: 30px;
+}
+
+.features .item {
+  width: calc((100% - 30px * 3) / 4);
+  margin-right: 30px;
+}
+
+.features .item:nth-child(4n) {
+  margin-right: 0;
 }
 
 .features .icon-antenna::before {
@@ -112,9 +132,14 @@
   background-image: url(../images/advantages/astronaut.svg);
 }
 
-.features .features .item {
-  width: calc((100% - 30px * 2) / 3);
-  margin-right: 30px;
+.features p {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--primary-text-color);
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
 }
 
 /* Section */
@@ -147,36 +172,6 @@
 
 .work .item:nth-child(3n) {
   margin-right: 0;
-}
-
-/* Features */
-
-.features .title {
-  color: var(--title-text-color);
-}
-
-.features {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.features .item {
-  width: calc((100% - 30px * 3) / 4);
-  margin-right: 30px;
-}
-
-.features .item:nth-child(4n) {
-  margin-right: 0;
-}
-
-.features p {
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 1.7;
-  color: var(--primary-text-color);
-  margin-top: 0px;
-  margin-bottom: 0px;
-  margin-right: 0px;
 }
 
 /* Our-team */
