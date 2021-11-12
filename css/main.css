@@ -225,12 +225,6 @@
   background-color: #f5f4fa;
 }
 
-.socials {
-  display: flex;
-  justify-content: center;
-  margin-top: 16px;
-}
-
 .link-social {
   display: block;
   justify-content: center;
@@ -253,10 +247,6 @@
   width: 20px;
   height: 20px;
   fill: currentColor;
-}
-
-.item-social:not(:last-child) {
-  margin-right: 10px;
 }
 
 /* Clients */
