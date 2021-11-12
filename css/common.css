@@ -73,6 +73,8 @@ body {
 
 .page-header .container {
   display: flex;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .page-header {
@@ -144,7 +146,7 @@ body {
   margin-left: auto;
 }
 
-dct .svg-envelope {
+.svg-envelope {
   width: 16px;
   height: 12px;
   margin-right: 10px;
@@ -158,12 +160,12 @@ dct .svg-envelope {
   fill: var(--hdprimary-text-color);
 }
 
-/* .contacts-header .svg-envelope:hover,
-.contacts-header .svg-envelope:focus,
-.contacts-header .svg-smartphone:hover,
-.contacts-header .svg-smartphone:focus {
-  fill: var(--hdaccent-pick-color);
-} */
+a.contact:hover .svg-envelope,
+a.contact:focus .svg-envelope,
+a.contact:hover .svg-smartphone,
+a.contact:focus .svg-smartphone {
+  fill: currentColor;
+}
 
 .contacts-header .contact {
   display: flex;
