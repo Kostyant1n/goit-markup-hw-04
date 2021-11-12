@@ -256,6 +256,18 @@ address {
   margin-top: 16px;
 }
 
+.link-social {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  color: var(--icon-cl);
+  border-radius: 50%;
+  background-color: var(--bgicon-cl);
+  padding: 12px;
+}
+
 .link-social .svg-icon {
   width: 20px;
   height: 20px;

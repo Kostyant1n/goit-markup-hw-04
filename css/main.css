@@ -225,18 +225,6 @@
   background-color: #f5f4fa;
 }
 
-.link-social {
-  display: block;
-  justify-content: center;
-  align-items: center;
-  width: 44px;
-  height: 44px;
-  color: var(--icon-cl);
-  border-radius: 50%;
-  background-color: var(--bgicon-cl);
-  padding: 12px;
-}
-
 .link-social:hover,
 .link-social:focus {
   color: var(--icon-pick-cl);
